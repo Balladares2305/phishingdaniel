@@ -1,0 +1,15 @@
+Basándonos en el programa para detectar phishing que hemos desarrollado, podemos obtener las siguientes conclusiones:
+
+Detección de palabras clave: El programa utiliza una lista de palabras clave comúnmente asociadas con mensajes de phishing. Al analizar un archivo de texto en busca de estas palabras clave, podemos identificar contenido sospechoso o potencialmente malicioso.
+
+Asignación de puntajes: Cada palabra clave tiene un puntaje asociado que refleja la probabilidad de que esa palabra esté relacionada con phishing. Palabras clave más peligrosas o sospechosas tienen puntajes más altos, lo que nos permite calificar el nivel de riesgo del contenido examinado.
+
+Ponderación de palabras clave: Asignar diferentes puntos a cada palabra clave permite distinguir la gravedad de ciertos mensajes de phishing. Por ejemplo, frases como "Problemas con tu cuenta" o "Transacción sospechosa" pueden ser indicadores más fuertes de phishing que otras frases menos alarmantes.
+
+Sensibilidad a mayúsculas y minúsculas: El programa convierte todas las líneas de texto y palabras clave a minúsculas para hacer la comparación insensible a mayúsculas. Esto permite detectar palabras clave incluso si están escritas en mayúsculas o minúsculas.
+
+Personalización y ampliación: El programa es fácilmente personalizable. Puedes agregar más palabras clave, ajustar los puntajes o incluso combinar diferentes técnicas de detección de phishing para mejorar la precisión del análisis.
+
+Limitaciones: El programa se basa en la detección de palabras clave específicas. Si un mensaje de phishing utiliza variaciones ortográficas o sinónimos de las palabras clave, es posible que no se detecte correctamente. Es importante complementar la detección de palabras clave con otras técnicas de seguridad y educación sobre phishing.
+
+En general, el programa proporciona una herramienta básica para detectar contenido sospechoso relacionado con phishing. Sin embargo, es fundamental recordar que las técnicas de detección de phishing están en constante evolución y que los ciberdelincuentes pueden usar tácticas más sofisticadas para evitar la detección. La educación en seguridad informática y la concienciación sobre el phishing siguen siendo esenciales para protegerse de los ataques cibernéticos.
